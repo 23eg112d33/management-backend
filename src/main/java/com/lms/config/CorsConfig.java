@@ -19,8 +19,7 @@ public class CorsConfig {
 
         // Allow deployed frontend + local development
         config.setAllowedOrigins(Arrays.asList(
-                "https://management-frontend-0jdu.onrender.com",
-                "http://localhost:3000"
+                "https://management-frontend-0jdu.onrender.com"
         ));
 
         config.setAllowedHeaders(Arrays.asList("*"));
